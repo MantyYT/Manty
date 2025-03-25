@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manty - Вдохновляйся и играй!</title>
+    <style>
+        /* Общие стили */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #6a4c9c, #4a8ff7);
+            color: #fff;
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        /* Шапка сайта */
+        header {
+            background: #ff6f4f;
+            padding: 15px;
+            font-size: 2rem;
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Кнопки */
+        .buttons {
+            margin: 20px 0;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .buttons a {
+            background: #4a8ff7;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-size: 1rem;
+            text-decoration: none;
+            font-weight: bold;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+            transition: background 0.3s, transform 0.3s;
+        }
+
+        .buttons a:hover {
+            background: #ff6f4f;
+            transform: scale(1.05);
+        }
+
+        /* Новости */
+        .news-section {
+            margin: 40px auto;
+            max-width: 1200px;
+        }
+
+        .news-section h2 {
+            margin-bottom: 20px;
+        }
+
+        .news-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+        }
+
+        .news-item {
+            background: white;
+            color: black;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: left;
+        }
+
+        .news-item img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        /* Подписка */
+        .subscribe-section {
+            margin: 40px auto;
+            max-width: 800px;
+            background: #001f3f;
+            /* Темно-синий фон */
+            padding: 20px;
+            border-radius: 15px;
+            color: white;
+        }
+
+        .subscribe-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .subscribe-buttons a {
+            background: black;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .subscribe-buttons a:hover {
+            background: #ff6f4f;
+        }
+    </style>
+</head>
+
+<body>
+    <header>Manty - Вдохновляйся и играй!</header>
+
+    <div class="buttons">
+        <a href="https://store.standoff2.com/" target="_blank">Купить Голду</a>
+        <a href="https://bulldrop.vip/" target="_blank">BullDrop</a>
+        <a href="https://standoff-2.com/" target="_blank">Новости Standoff 2</a>
+    </div>
+
+    <section class="news-section">
+        <h2>Новости Standoff 2</h2>
+        <div class="news-container">
+            <div class="news-item">
+                <img src="news1.jpg" alt="Новость 1">
+                <h3>Обновление 0.25.0</h3>
+                <p>В игру добавлены новые скины, карты и режимы!</p>
+            </div>
+            <div class="news-item">
+                <img src="news2.jpg" alt="Новость 2">
+                <h3>Турниры 2025</h3>
+                <p>Анонсированы крупные киберспортивные турниры по Standoff 2.</p>
+            </div>
+            <div class="news-item">
+                <img src="news3.jpg" alt="Новость 3">
+                <h3>Исправления багов</h3>
+                <p>Разработчики исправили критические ошибки в игре.</p>
+            </div>
+            <div class="news-item">
+                <img src="news4.jpg" alt="Новость 4">
+                <h3>Новый боевой пропуск</h3>
+                <p>Скоро выйдет свежий сезонный боевой пропуск.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="subscribe-section">
+        <h2>Подпишитесь на лучшие каналы!</h2>
+        <div class="subscribe-buttons">
+            <a href="https://youtube.com/@manty_kent" target="_blank">Manty (YouTube)</a>
+            <a href="https://www.youtube.com/@СКАЙЛЕРСО2" target="_blank">СкайлерСО2 (YouTube)</a>
+            <a href="https://t.me/FROZENS10" target="_blank">FROZEN (Telegram)</a>
+        </div>
+    </section>
+</body>
+
+</html>
